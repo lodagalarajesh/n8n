@@ -173,7 +173,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-# 🔀 Now Adding the IF Condition Node
+# 🔀 Now Adding the 🅘🅕 Condition Node
 
 
 ## STEP 9:
