@@ -1,21 +1,21 @@
 # N8N – Workflow Setup Explanation (Google Sheets + IF Condition)
 
 
-## STEP 1:
+## ➺STEP 1:
 
 
 Open n8n and Sign Up / Sign In to your account.
 
 
 
-## STEP 2:
+## ➺STEP 2:
 
 
 Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 3:
+## ➺STEP 3:
 
 
 + Search for “Manual Trigger” and add it.
@@ -24,7 +24,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 4:
+## ➺STEP 4:
 
 
 + Click on “+ Add node” again 
@@ -33,7 +33,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 5:
+## ➺STEP 5:
 
 
 + On the Google Sheets node, you will see the following parameters:
@@ -67,7 +67,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 6:
+## ➺STEP 6:
 
 
 + Fill the parameters one by one:
@@ -137,7 +137,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 7:
+## ➺STEP 7:
 
 
 + Select Sheet using one of the following:
@@ -166,7 +166,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 8:
+## ➺STEP 8:
 + Click Execute step 
 
 
@@ -176,14 +176,14 @@ Click “Add first step” to start creating your workflow.
 # 🔀 Now Adding the 🅘🅕 Condition Node
 
 
-## STEP 9:
+## ➺STEP 9:
 
 
 + Click “Add node” again → search “IF (Condition)” and add it.
 
 
 
-## STEP 10:
+## ➺STEP 10:
 
 
 + The IF node will display Conditions.
@@ -224,7 +224,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 11:
+## ➺STEP 11:
 
 
 + After choosing the type, select a specific condition.
@@ -255,7 +255,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 12:
+## ➺STEP 12:
 
 
 + Enter the value for the condition based on what you want to compare.
@@ -264,14 +264,14 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 13:
+## ➺STEP 13:
 
 
 + Click Execute Node to run the IF condition.
 
 
 
-## STEP 14:
+## ➺STEP 14:
 
 
 + After execution if incase you want , the IF node separates the output into:
@@ -290,7 +290,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-## STEP 15:
+## ➺STEP 15:
 
 + now you have to add "append row " to both true and false buttons 
 
@@ -302,11 +302,11 @@ Click “Add first step” to start creating your workflow.
 
 +after you on it manually 
 
-## STEP 16 :
+## ➺STEP 16 :
 
 + Click Execute step 
 
-## STEP 17 :
+## ➺STEP 17 :
 
 + now you have do same process for false button 
 
