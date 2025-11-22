@@ -1,7 +1,7 @@
-# N8N – Workflow Setup Explanation (Google Sheets + IF Condition)
+# ✦ 𝐍8𝐍 – W𝐎𝐑𝐊𝐅𝐋𝐎𝐖 𝐒𝐄𝐓𝐔𝐏  𝐄𝐗𝐏𝐋𝐀𝐈𝐍𝐀𝐓𝐈𝐎𝐍 (Google Sheets + IF Condition)
 
 
-## STEP 1:
+## ➺STEP 1:
 
 
 + Open n8n and Sign Up / Sign In to your account.
@@ -9,14 +9,14 @@
 
 
 
-## STEP 2:
+## ➺STEP 2:
 
 
 + Click “Add first step” to start creating your workflow.
 
 <img Screenshot_2025-11-22-19-44-40-21_40deb401b9ffe8e1df2f1cc5ba480b12.jpg>
 
-## STEP 3:
+## ➺STEP 3:
 
 
 + Search for “Manual Trigger” and add it.
@@ -25,7 +25,7 @@
 
 
 
-## STEP 4:
+## ➺STEP 4:
 
 
 + Click on “+ Add node” again 
@@ -36,7 +36,7 @@
 
 
 
-## STEP 5:
+## ➺STEP 5:
 
 
 + On the Google Sheets node, you will see the following parameters:
@@ -70,7 +70,7 @@
 
 
 
-## STEP 6:
+## ➺STEP 6:
 
 
 + Fill the parameters one by one:
@@ -140,7 +140,7 @@
 
 
 
-## STEP 7:
+## ➺STEP 7:
 
 
 + Select Sheet using one of the following:
@@ -169,24 +169,25 @@
 
 
 
-## STEP 8:
+## ➺STEP 8:
+
 + Click Execute step 
 
 
 
 
 
-# 🔀 Now Adding the IF Condition Node
+# 𖤍 𝐍𝐎𝐖 𝐀𝐃𝐃𝐈𝐍𝐆 𝐓𝐇𝐄  🅘🅕 𝐂𝐎𝐍𝐃𝐈𝐓𝐈𝐎𝐍  𝐍𝐎𝐃𝐄:
 
 
-## STEP 9:
+## ➺STEP 9:
 
 
 + Click “Add node” again → search “IF (Condition)” and add it.
 
 
 
-## STEP 10:
+## ➺STEP 10:
 
 
 + The IF node will display Conditions.
@@ -227,7 +228,7 @@
 
 
 
-## STEP 11:
+## ➺STEP 11:
 
 
 + After choosing the type, select a specific condition.
@@ -258,7 +259,7 @@
 
 
 
-## STEP 12:
+## ➺STEP 12:
 
 
 + Enter the value for the condition based on what you want to compare.
@@ -267,14 +268,14 @@
 
 
 
-## STEP 13:
+## ➺STEP 13:
 
 
 + Click Execute Node to run the IF condition.
 
 
 
-## STEP 14:
+## ➺STEP 14:
 
 
 + After execution if incase you want , the IF node separates the output into:
@@ -293,7 +294,7 @@
 
 
 
-## STEP 15:
+## ➺STEP 15:
 
 + now you have to add "append row " to both true and false buttons 
 
@@ -305,11 +306,11 @@
 
 +after you on it manually 
 
-## STEP 16 :
+## ➺STEP 16 :
 
 + Click Execute step 
 
-## STEP 17 :
+## ➺STEP 17 :
 
 + now you have do same process for false button 
 
@@ -328,6 +329,6 @@
 
 + All values that don’t satisfy → stored in False Sheet
 
-# FINAL WORKFLOW WILL BE LOOKING LIKE THIS:
+# 𖣘︎ FINAL WORKFLOW WILL BE LOOKING LIKE THIS:
 
 
