@@ -1,74 +1,76 @@
 # N8N – Workflow Setup Explanation (Google Sheets + IF Condition)
 
 
-Step 1:
+## STEP 1:
 
 
 Open n8n and Sign Up / Sign In to your account.
 
 
 
-Step 2:
+## STEP 2:
 
 
 Click “Add first step” to start creating your workflow.
 
 
 
-Step 3:
+## STEP 3:
 
 
-Search for “Manual Trigger” and add it.
++ Search for “Manual Trigger” and add it.
 
-🟢 This trigger allows you to run the workflow manually for testing.
-
-
-
-Step 4:
-
-
-Click on “+ Add node” again → search for “Google Sheets” → select “Append” operation and connect it to the Manual Trigger node.
++ 🟢 This trigger allows you to run the workflow manually for testing.
 
 
 
-Step 5:
+## STEP 4:
 
 
-On the Google Sheets node, you will see the following parameters:
++ Click on “+ Add node” again 
+→ search for “Google Sheets” 
+→ select “Getrow” operation and connect it to the Manual Trigger node.
 
 
 
+## STEP 5:
 
-Credentials to connect with
+
++ On the Google Sheets node, you will see the following parameters:
 
 
 
 
-Resource
++ Credentials to connect with
 
 
 
 
-Operation
++ Resource
 
 
 
 
-Document
++ Operation
 
 
 
 
-Sheet
++ Document
+
+
+
+
++ Sheet
 
 
 
 
 
-Step 6:
+## STEP 6:
 
 
-Fill the parameters one by one:
++ Fill the parameters one by one:
 
 
 🔹 Credentials – Connect your Google account so n8n can access your Google Sheets.
@@ -79,12 +81,12 @@ Fill the parameters one by one:
 
 
 
-Document
++ Document
 
 
 
 
-Sheet
++ Sheet
 
 
 
@@ -94,22 +96,22 @@ Sheet
 
 
 
-Append
++ Append
 
 
 
 
-Delete
++ Delete
 
 
 
 
-Create
++ Create
 
 
 
 
-Update, etc.
++ Update, etc.
 
 
 
@@ -119,226 +121,210 @@ Update, etc.
 
 
 
-From list
++ From list
 
 
 
 
-By ID
++ By ID
 
 
 
 
-By URL
++ By URL
 
 
 
 
 
-Step 7:
+## STEP 7:
 
 
-Select Sheet using one of the following:
++ Select Sheet using one of the following:
 
 
 
 
-From list
++ From list
 
 
 
 
-By URL
++ By URL
 
 
 
 
-By ID
++ By ID
 
 
 
 
-By Name
++ By Name
 
 
 
 
 
-Step 8:
+## STEP 8:
++ Click Execute step 
 
 
-Next, you will see Mapping Column Mode. You have two options:
 
 
 
+# 🔀 Now Adding the IF Condition Node
 
-Map Each Column Manually
 
-→ You need to provide values for each column manually.
+## STEP 9:
 
 
++ Click “Add node” again → search “IF (Condition)” and add it.
 
 
-Map Automatically
 
-→ It will automatically detect incoming data and match it with Google Sheet columns.
+## STEP 10:
 
 
++ The IF node will display Conditions.
 
++ Choose one type depending on your data:
 
 
-Step 9:
 
 
-After mapping columns, click “Execute Node” to test and ensure data is added to your Google Sheet.
++ String
 
 
 
-🔀 Now Adding the IF Condition Node
 
++ Number
 
-Step 10:
 
 
-Click “Add node” again → search “IF (Condition)” and add it.
 
++ Date & Time
 
 
-Step 11:
 
 
-The IF node will display Conditions.
++ Boolean
 
-Choose one type depending on your data:
 
 
 
++ Array
 
-String
 
 
 
++ Object
 
-Number
 
 
 
 
-Date & Time
+## STEP 11:
 
 
++ After choosing the type, select a specific condition.
 
++ Example:
 
-Boolean
 
 
 
++ Equals
 
-Array
 
 
 
++ Contains
 
-Object
 
 
 
++ Greater than
 
 
-Step 12:
 
 
-After choosing the type, select a specific condition.
++ Less than, etc.
 
-Example:
 
 
 
 
-Equals
+## STEP 12:
 
 
++ Enter the value for the condition based on what you want to compare.
 
++ Example: If marks > 40 or if name = “John”, etc.
 
-Contains
 
 
+## STEP 13:
 
 
-Greater than
++ Click Execute Node to run the IF condition.
 
 
 
+## STEP 14:
 
-Less than, etc.
 
++ After execution if incase you want , the IF node separates the output into:
 
 
 
 
-Step 13:
++ True
 
 
-Enter the value for the condition based on what you want to compare.
 
-Example: If marks > 40 or if name = “John”, etc.
 
++ False
 
 
-Step 14:
 
 
-Click Execute Node to run the IF condition.
 
+## STEP 15:
 
++ now you have to add "append row " to both true and false buttons 
 
-Step 15:
++ search append row and add it to true button .
 
++ it shows some parameters same like above get row parameters .
 
-After execution, the IF node separates the output into:
++ give same sheets what you was gave above get operation.
 
++after you on it manually 
 
+## STEP 16 :
 
++ Click Execute step 
 
-True
+## STEP 17 :
 
++ now you have do same process for false button 
 
++ add append , give same sheets and click  Execute step 
 
 
-False
++ So final result:
 
 
 
 
++ All values that satisfy the condition → stored in True Sheet
 
-Step 16:
 
 
-You can send:
 
++ All values that don’t satisfy → stored in False Sheet
 
-
-
-True output to a separate Google Sheet
-
-
-
-
-False output to another Google Sheet
-
-
-
-
-So final result:
-
-
-
-
-All values that satisfy the condition → stored in True Sheet
-
-
-
-
-All values that don’t satisfy → stored in False Sheet
+# FINAL WORKFLOW WILL BE LOOKING LIKE THIS:
 
 
