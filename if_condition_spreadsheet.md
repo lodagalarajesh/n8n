@@ -4,14 +4,14 @@
 ## STEP 1:
 
 
-Open n8n and Sign Up / Sign In to your account.
++ Open n8n and Sign Up / Sign In to your account.
 
 
 
 ## STEP 2:
 
 
-Click “Add first step” to start creating your workflow.
++ Click “Add first step” to start creating your workflow.
 
 
 
@@ -28,7 +28,9 @@ Click “Add first step” to start creating your workflow.
 
 
 + Click on “+ Add node” again 
+
 → search for “Google Sheets” 
+
 → select “Getrow” operation and connect it to the Manual Trigger node.
 
 
@@ -325,6 +327,6 @@ Click “Add first step” to start creating your workflow.
 
 + All values that don’t satisfy → stored in False Sheet
 
- FINAL WORKFLOW WILL BE LOOKING LIKE THIS:
+# FINAL WORKFLOW WILL BE LOOKING LIKE THIS:
 
 
