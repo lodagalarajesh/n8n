@@ -14,7 +14,7 @@
 
 + Click “Add first step” to start creating your workflow.
 
-
+<img Screenshot_2025-11-22-19-44-40-21_40deb401b9ffe8e1df2f1cc5ba480b12.jpg>
 
 ## STEP 3:
 
