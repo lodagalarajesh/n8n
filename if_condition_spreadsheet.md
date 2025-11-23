@@ -1,4 +1,4 @@
-# N8N – Workflow Setup Explanation (Google Sheets + IF Condition)
+# 𖣘 𝐍8𝐍 – 𝐖𝐎𝐑𝐊𝐅𝐋𝐎𝐖 𝐒𝐄𝐓𝐔𝐏 𝐄𝐗𝐏𝐋𝐀𝐍𝐀𝐓𝐈𝐎𝐍 (Google Sheets + IF Condition)
 
 
 ## ➺STEP 1:
@@ -173,7 +173,7 @@ Click “Add first step” to start creating your workflow.
 
 
 
-# 🔀 Now Adding the 🅘🅕 Condition Node
+# ♨ 𝐍𝐎𝐖 𝐀𝐃𝐃𝐈𝐍𝐆 𝐓𝐇𝐄 🅘🅕 𝐂𝐎𝐍𝐃𝐓𝐈𝐎𝐍 𝐓𝐎 𝐍𝐎𝐃𝐄:
 
 
 ## ➺STEP 9:
@@ -325,6 +325,6 @@ Click “Add first step” to start creating your workflow.
 
 + All values that don’t satisfy → stored in False Sheet
 
-# FINAL WORKFLOW WILL BE LOOKING LIKE THIS:
+# ☯ 𝐅𝐈𝐍𝐀𝐋  𝐖𝐎𝐑𝐊𝐅𝐋𝐎𝐖 𝐖𝐈𝐋𝐋 𝐁𝐄 𝐋𝐎𝐎𝐊𝐈𝐍𝐆 𝐋𝐈𝐊𝐄 𝐓𝐇𝐈𝐒 ࿐:
 
 
