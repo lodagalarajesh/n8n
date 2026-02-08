@@ -58,7 +58,6 @@ Below is the workflow that you created and executed:
 
 The following email was received as a result of the workflow execution:
 
-<img width="1920" height="1032" alt="Here&#39;s the information - sanjaynewbie2@gmail com - Gmail - Google Chrome 22-11-2025 11_11_06" src="https://github.com/user-attachments/assets/a09b9093-21f9-4936-86f5-f0ff133ddbc1" />
 
 ---
 
